@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/diagonalley" mode="merge"/>
+    <filter root="/content/diagonalley" mode="merge"/>
+    <filter root="/content/dam/diagonalley" mode="merge">
+        <exclude pattern="/content/dam/diagonalley(/.*)?"/>
+        <include pattern="/content/dam/diagonalley/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/diagonalley/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/diagonalley" mode="merge"/>
+</workspaceFilter>

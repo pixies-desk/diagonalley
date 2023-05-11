@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/diagonalley",
+        "create path (nt:unstructured) /content/dam/diagonalley/jcr:content",
+        "set properties on /content/dam/diagonalley/jcr:content\n  set cq:conf{String} to /conf/diagonalley\n  set jcr:title{String} to \"Diagon Alley\"\nend"
+    ]
+}
